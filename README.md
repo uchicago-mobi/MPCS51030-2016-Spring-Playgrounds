@@ -9,3 +9,7 @@ Projects and Playgrounds from class demonstrations.
  - Present and dismiss view controller programmatically
  - Add/remove child view controller
  - Custom delegate for parent-child communication under view controller containment
+ 
+* 2016-ReadToMe
+ - Speech synthesis
+ - Word highlighting
