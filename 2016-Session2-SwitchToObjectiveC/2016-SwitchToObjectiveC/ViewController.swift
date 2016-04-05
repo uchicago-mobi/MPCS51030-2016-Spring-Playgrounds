@@ -27,8 +27,11 @@ class ViewController: UIViewController {
     print("Defaults (from Swift ViewController:\n \(defaults.dictionaryRepresentation())")
     
     // Call our objective-c code
-    let message = GreetingObject(message: "This is from Swift")
+    //let message = GreetingObject(message: "This is from Swift")
+    //message.greetWithDate()
+    let message = GreetingObject(message: "Hello Class")
     message.greetWithDate()
+    
   }
   
 }

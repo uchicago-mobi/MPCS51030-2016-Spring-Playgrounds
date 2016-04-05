@@ -16,11 +16,6 @@
 		377612CC18EFA65D008AB160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377612CA18EFA65D008AB160 /* Main.storyboard */; };
 		377612CF18EFA65D008AB160 /* SpeechSynthesisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612CE18EFA65D008AB160 /* SpeechSynthesisViewController.m */; };
 		377612D118EFA65D008AB160 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377612D018EFA65D008AB160 /* Images.xcassets */; };
-		377612D818EFA65D008AB160 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377612D718EFA65D008AB160 /* XCTest.framework */; };
-		377612D918EFA65D008AB160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377612B818EFA65D008AB160 /* Foundation.framework */; };
-		377612DA18EFA65D008AB160 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377612BC18EFA65D008AB160 /* UIKit.framework */; };
-		377612E218EFA65D008AB160 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377612E018EFA65D008AB160 /* InfoPlist.strings */; };
-		377612E418EFA65D008AB160 /* _014_Spring_ReadToMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612E318EFA65D008AB160 /* _014_Spring_ReadToMeTests.m */; };
 		377612EE18EFB8C0008AB160 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377612ED18EFB8C0008AB160 /* AVFoundation.framework */; };
 		377612F118F279F0008AB160 /* PrerecordedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612F018F279F0008AB160 /* PrerecordedViewController.m */; };
 		377612F718F27C4C008AB160 /* QuickFox.wav in Resources */ = {isa = PBXBuildFile; fileRef = 377612F618F27C4C008AB160 /* QuickFox.wav */; };
@@ -28,38 +23,24 @@
 		377612FC18F39879008AB160 /* PrompterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377612FB18F39879008AB160 /* PrompterViewController.m */; };
 		37988D5A18F2E7F200021373 /* QuickBrown.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37988D5918F2E7F200021373 /* QuickBrown.txt */; };
 		37988D5E18F2E88900021373 /* audacityToPlist.pl in Resources */ = {isa = PBXBuildFile; fileRef = 37988D5D18F2E88900021373 /* audacityToPlist.pl */; };
+		37FE98C11CB2FEC300E46588 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FE98C01CB2FEC300E46588 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		377612DB18EFA65D008AB160 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 377612AD18EFA65D008AB160 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 377612B418EFA65D008AB160;
-			remoteInfo = "2014-Spring-ReadToMe";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		377612B518EFA65D008AB160 /* 2015-Spring-ReadToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2015-Spring-ReadToMe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		377612B518EFA65D008AB160 /* 2016-Spring-ReadToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2016-Spring-ReadToMe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377612B818EFA65D008AB160 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		377612BA18EFA65D008AB160 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		377612BC18EFA65D008AB160 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		377612C018EFA65D008AB160 /* 2015-Spring-ReadToMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2015-Spring-ReadToMe-Info.plist"; sourceTree = "<group>"; };
+		377612C018EFA65D008AB160 /* 2016-Spring-ReadToMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2016-Spring-ReadToMe-Info.plist"; sourceTree = "<group>"; };
 		377612C218EFA65D008AB160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		377612C418EFA65D008AB160 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		377612C618EFA65D008AB160 /* 2015-Spring-ReadToMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2015-Spring-ReadToMe-Prefix.pch"; sourceTree = "<group>"; };
+		377612C618EFA65D008AB160 /* 2016-Spring-ReadToMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2016-Spring-ReadToMe-Prefix.pch"; sourceTree = "<group>"; };
 		377612C718EFA65D008AB160 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		377612C818EFA65D008AB160 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		377612CB18EFA65D008AB160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		377612CD18EFA65D008AB160 /* SpeechSynthesisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesisViewController.h; sourceTree = "<group>"; };
 		377612CE18EFA65D008AB160 /* SpeechSynthesisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesisViewController.m; sourceTree = "<group>"; };
 		377612D018EFA65D008AB160 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		377612D618EFA65D008AB160 /* 2015-Spring-ReadToMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2015-Spring-ReadToMeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		377612D718EFA65D008AB160 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		377612DF18EFA65D008AB160 /* 2015-Spring-ReadToMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2015-Spring-ReadToMeTests-Info.plist"; sourceTree = "<group>"; };
-		377612E118EFA65D008AB160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		377612E318EFA65D008AB160 /* _014_Spring_ReadToMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _014_Spring_ReadToMeTests.m; sourceTree = "<group>"; };
 		377612ED18EFB8C0008AB160 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		377612EF18F279F0008AB160 /* PrerecordedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrerecordedViewController.h; sourceTree = "<group>"; };
 		377612F018F279F0008AB160 /* PrerecordedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrerecordedViewController.m; sourceTree = "<group>"; };
@@ -69,6 +50,7 @@
 		377612FB18F39879008AB160 /* PrompterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrompterViewController.m; sourceTree = "<group>"; };
 		37988D5918F2E7F200021373 /* QuickBrown.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuickBrown.txt; sourceTree = "<group>"; };
 		37988D5D18F2E88900021373 /* audacityToPlist.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = audacityToPlist.pl; sourceTree = "<group>"; };
+		37FE98C01CB2FEC300E46588 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,24 +65,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		377612D318EFA65D008AB160 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				377612D818EFA65D008AB160 /* XCTest.framework in Frameworks */,
-				377612DA18EFA65D008AB160 /* UIKit.framework in Frameworks */,
-				377612D918EFA65D008AB160 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		377612AC18EFA65D008AB160 = {
 			isa = PBXGroup;
 			children = (
-				377612BE18EFA65D008AB160 /* 2014-Spring-ReadToMe */,
-				377612DD18EFA65D008AB160 /* 2014-Spring-ReadToMeTests */,
+				377612BE18EFA65D008AB160 /* 2016-Spring-ReadToMe */,
 				377612B718EFA65D008AB160 /* Frameworks */,
 				377612B618EFA65D008AB160 /* Products */,
 			);
@@ -109,8 +80,7 @@
 		377612B618EFA65D008AB160 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				377612B518EFA65D008AB160 /* 2015-Spring-ReadToMe.app */,
-				377612D618EFA65D008AB160 /* 2015-Spring-ReadToMeTests.xctest */,
+				377612B518EFA65D008AB160 /* 2016-Spring-ReadToMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,17 +92,17 @@
 				377612B818EFA65D008AB160 /* Foundation.framework */,
 				377612BA18EFA65D008AB160 /* CoreGraphics.framework */,
 				377612BC18EFA65D008AB160 /* UIKit.framework */,
-				377612D718EFA65D008AB160 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		377612BE18EFA65D008AB160 /* 2014-Spring-ReadToMe */ = {
+		377612BE18EFA65D008AB160 /* 2016-Spring-ReadToMe */ = {
 			isa = PBXGroup;
 			children = (
 				377612C718EFA65D008AB160 /* AppDelegate.h */,
 				377612C818EFA65D008AB160 /* AppDelegate.m */,
 				377612CA18EFA65D008AB160 /* Main.storyboard */,
+				37FE98C01CB2FEC300E46588 /* Launch Screen.storyboard */,
 				377612FA18F39879008AB160 /* PrompterViewController.h */,
 				377612FB18F39879008AB160 /* PrompterViewController.m */,
 				377612CE18EFA65D008AB160 /* SpeechSynthesisViewController.m */,
@@ -142,6 +112,7 @@
 				377612D018EFA65D008AB160 /* Images.xcassets */,
 				377612BF18EFA65D008AB160 /* Supporting Files */,
 			);
+			name = "2016-Spring-ReadToMe";
 			path = "2014-Spring-ReadToMe";
 			sourceTree = "<group>";
 		};
@@ -152,28 +123,10 @@
 				37988D5918F2E7F200021373 /* QuickBrown.txt */,
 				377612F818F27E67008AB160 /* QuickBrown.plist */,
 				377612F618F27C4C008AB160 /* QuickFox.wav */,
-				377612C018EFA65D008AB160 /* 2015-Spring-ReadToMe-Info.plist */,
+				377612C018EFA65D008AB160 /* 2016-Spring-ReadToMe-Info.plist */,
 				377612C118EFA65D008AB160 /* InfoPlist.strings */,
 				377612C418EFA65D008AB160 /* main.m */,
-				377612C618EFA65D008AB160 /* 2015-Spring-ReadToMe-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		377612DD18EFA65D008AB160 /* 2014-Spring-ReadToMeTests */ = {
-			isa = PBXGroup;
-			children = (
-				377612E318EFA65D008AB160 /* _014_Spring_ReadToMeTests.m */,
-				377612DE18EFA65D008AB160 /* Supporting Files */,
-			);
-			path = "2014-Spring-ReadToMeTests";
-			sourceTree = "<group>";
-		};
-		377612DE18EFA65D008AB160 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				377612DF18EFA65D008AB160 /* 2015-Spring-ReadToMeTests-Info.plist */,
-				377612E018EFA65D008AB160 /* InfoPlist.strings */,
+				377612C618EFA65D008AB160 /* 2016-Spring-ReadToMe-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		377612B418EFA65D008AB160 /* 2015-Spring-ReadToMe */ = {
+		377612B418EFA65D008AB160 /* 2016-Spring-ReadToMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 377612E718EFA65D008AB160 /* Build configuration list for PBXNativeTarget "2015-Spring-ReadToMe" */;
+			buildConfigurationList = 377612E718EFA65D008AB160 /* Build configuration list for PBXNativeTarget "2016-Spring-ReadToMe" */;
 			buildPhases = (
 				377612B118EFA65D008AB160 /* Sources */,
 				377612B218EFA65D008AB160 /* Frameworks */,
@@ -193,28 +146,10 @@
 			);
 			dependencies = (
 			);
-			name = "2015-Spring-ReadToMe";
+			name = "2016-Spring-ReadToMe";
 			productName = "2014-Spring-ReadToMe";
-			productReference = 377612B518EFA65D008AB160 /* 2015-Spring-ReadToMe.app */;
+			productReference = 377612B518EFA65D008AB160 /* 2016-Spring-ReadToMe.app */;
 			productType = "com.apple.product-type.application";
-		};
-		377612D518EFA65D008AB160 /* 2015-Spring-ReadToMeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 377612EA18EFA65D008AB160 /* Build configuration list for PBXNativeTarget "2015-Spring-ReadToMeTests" */;
-			buildPhases = (
-				377612D218EFA65D008AB160 /* Sources */,
-				377612D318EFA65D008AB160 /* Frameworks */,
-				377612D418EFA65D008AB160 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				377612DC18EFA65D008AB160 /* PBXTargetDependency */,
-			);
-			name = "2015-Spring-ReadToMeTests";
-			productName = "2014-Spring-ReadToMeTests";
-			productReference = 377612D618EFA65D008AB160 /* 2015-Spring-ReadToMeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -222,15 +157,10 @@
 		377612AD18EFA65D008AB160 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "The University of Chicago, Department of Computer Science";
-				TargetAttributes = {
-					377612D518EFA65D008AB160 = {
-						TestTargetID = 377612B418EFA65D008AB160;
-					};
-				};
 			};
-			buildConfigurationList = 377612B018EFA65D008AB160 /* Build configuration list for PBXProject "2015-Spring-ReadToMe" */;
+			buildConfigurationList = 377612B018EFA65D008AB160 /* Build configuration list for PBXProject "2016-Spring-ReadToMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -243,8 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				377612B418EFA65D008AB160 /* 2015-Spring-ReadToMe */,
-				377612D518EFA65D008AB160 /* 2015-Spring-ReadToMeTests */,
+				377612B418EFA65D008AB160 /* 2016-Spring-ReadToMe */,
 			);
 		};
 /* End PBXProject section */
@@ -256,19 +185,12 @@
 			files = (
 				377612F918F27E67008AB160 /* QuickBrown.plist in Resources */,
 				37988D5E18F2E88900021373 /* audacityToPlist.pl in Resources */,
+				37FE98C11CB2FEC300E46588 /* Launch Screen.storyboard in Resources */,
 				377612F718F27C4C008AB160 /* QuickFox.wav in Resources */,
 				377612D118EFA65D008AB160 /* Images.xcassets in Resources */,
 				377612C318EFA65D008AB160 /* InfoPlist.strings in Resources */,
 				377612CC18EFA65D008AB160 /* Main.storyboard in Resources */,
 				37988D5A18F2E7F200021373 /* QuickBrown.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		377612D418EFA65D008AB160 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				377612E218EFA65D008AB160 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,23 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		377612D218EFA65D008AB160 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				377612E418EFA65D008AB160 /* _014_Spring_ReadToMeTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		377612DC18EFA65D008AB160 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 377612B418EFA65D008AB160 /* 2015-Spring-ReadToMe */;
-			targetProxy = 377612DB18EFA65D008AB160 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		377612C118EFA65D008AB160 /* InfoPlist.strings */ = {
@@ -320,14 +226,6 @@
 				377612CB18EFA65D008AB160 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		377612E018EFA65D008AB160 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				377612E118EFA65D008AB160 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,6 +249,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -365,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -397,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -409,9 +308,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2014-Spring-ReadToMe/2015-Spring-ReadToMe-Prefix.pch";
-				INFOPLIST_FILE = "2014-Spring-ReadToMe/2015-Spring-ReadToMe-Info.plist";
-				PRODUCT_NAME = "2015-Spring-ReadToMe";
+				GCC_PREFIX_HEADER = "2014-Spring-ReadToMe/2016-Spring-ReadToMe-Prefix.pch";
+				INFOPLIST_FILE = "2014-Spring-ReadToMe/2016-Spring-ReadToMe-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.uchicago.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "2016-Spring-ReadToMe";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -422,57 +323,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2014-Spring-ReadToMe/2015-Spring-ReadToMe-Prefix.pch";
-				INFOPLIST_FILE = "2014-Spring-ReadToMe/2015-Spring-ReadToMe-Info.plist";
-				PRODUCT_NAME = "2015-Spring-ReadToMe";
+				GCC_PREFIX_HEADER = "2014-Spring-ReadToMe/2016-Spring-ReadToMe-Prefix.pch";
+				INFOPLIST_FILE = "2014-Spring-ReadToMe/2016-Spring-ReadToMe-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.uchicago.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "2016-Spring-ReadToMe";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		377612EB18EFA65D008AB160 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2014-Spring-ReadToMe.app/2014-Spring-ReadToMe";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2014-Spring-ReadToMe/2014-Spring-ReadToMe-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "2014-Spring-ReadToMeTests/2015-Spring-ReadToMeTests-Info.plist";
-				PRODUCT_NAME = "2015-Spring-ReadToMeTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		377612EC18EFA65D008AB160 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2014-Spring-ReadToMe.app/2014-Spring-ReadToMe";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2014-Spring-ReadToMe/2014-Spring-ReadToMe-Prefix.pch";
-				INFOPLIST_FILE = "2014-Spring-ReadToMeTests/2015-Spring-ReadToMeTests-Info.plist";
-				PRODUCT_NAME = "2015-Spring-ReadToMeTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		377612B018EFA65D008AB160 /* Build configuration list for PBXProject "2015-Spring-ReadToMe" */ = {
+		377612B018EFA65D008AB160 /* Build configuration list for PBXProject "2016-Spring-ReadToMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				377612E518EFA65D008AB160 /* Debug */,
@@ -481,20 +344,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		377612E718EFA65D008AB160 /* Build configuration list for PBXNativeTarget "2015-Spring-ReadToMe" */ = {
+		377612E718EFA65D008AB160 /* Build configuration list for PBXNativeTarget "2016-Spring-ReadToMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				377612E818EFA65D008AB160 /* Debug */,
 				377612E918EFA65D008AB160 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		377612EA18EFA65D008AB160 /* Build configuration list for PBXNativeTarget "2015-Spring-ReadToMeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				377612EB18EFA65D008AB160 /* Debug */,
-				377612EC18EFA65D008AB160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

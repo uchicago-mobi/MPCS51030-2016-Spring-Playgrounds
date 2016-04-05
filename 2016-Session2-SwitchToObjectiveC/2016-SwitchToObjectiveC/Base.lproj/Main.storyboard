@@ -43,7 +43,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QA4-av-1LI">
-                                <rect key="frame" x="275.5" y="284" width="51" height="31"/>
+                                <rect key="frame" x="276" y="284" width="51" height="31"/>
                                 <connections>
                                     <action selector="tapSwitch:" destination="W39-6G-NUR" eventType="valueChanged" id="HBX-lh-WMI"/>
                                 </connections>

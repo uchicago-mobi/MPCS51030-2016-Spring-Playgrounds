@@ -8,11 +8,25 @@
 
 #import "SpeechSynthesisViewController.h"
 
+
+///
+///
+///
 @interface SpeechSynthesisViewController ()
 @property AVSpeechSynthesizer *speechSynthesizer;
 @end
 
+
+///
+///
+///
 @implementation SpeechSynthesisViewController
+
+//------------------------------------------------------------------------------
+//
+#pragma mark - Lifecycle
+//
+//------------------------------------------------------------------------------
 
 - (void)viewDidLoad
 {
@@ -22,13 +36,22 @@
     [self.speechSynthesizer pauseSpeakingAtBoundary:AVSpeechBoundaryWord];
 
 }
+
 - (void)viewWillAppear:(BOOL)animated
 {
     self.textView.attributedText = [[NSAttributedString alloc] initWithString:self.textView.text
                                                                     attributes:@{NSFontAttributeName:[UIFont fontWithName:@"Helvetica" size:30]}];
-
 }
 
+
+//------------------------------------------------------------------------------
+//
+#pragma mark -  Speech Synthesis Tricks
+//
+//------------------------------------------------------------------------------
+
+
+/// Begin speaking when the user taps the bar button
 - (IBAction)tapSpeak:(id)sender
 {
     AVSpeechUtterance *utterance = [[AVSpeechUtterance alloc] initWithString:self.textView.text];
@@ -40,7 +63,16 @@
 }
 
 
--(NSString*)detectLanguage:(NSString*)string
+
+//------------------------------------------------------------------------------
+//
+#pragma mark -  Speech Synthesis Tricks
+//
+//------------------------------------------------------------------------------
+
+
+// Just for fun, detect what language is being spoken
+- (NSString*)detectLanguage:(NSString*)string
 {
     NSArray *tagschemes = [NSArray arrayWithObjects:NSLinguisticTagSchemeLanguage, nil];
     NSLinguisticTagger *tagger = [[NSLinguisticTagger alloc] initWithTagSchemes:tagschemes options:0];
@@ -51,8 +83,11 @@
 }
 
 //------------------------------------------------------------------------------
+//
 #pragma mark - AVSpeechSynthesizerDelegate
+//
 //------------------------------------------------------------------------------
+
 - (void)speechSynthesizer:(AVSpeechSynthesizer *)synthesizer
     willSpeakRangeOfSpeechString:(NSRange)characterRange utterance:(AVSpeechUtterance *)utterance
 {
