@@ -39,11 +39,7 @@ class ViewController: UIViewController {
    
     
     let gvc = ColorViewController(nibName: "GreenViewController", bundle: nil)
-    
-    
     //let gvc = ColorViewController()
-    
-    
     gvc.view.backgroundColor = UIColor.greenColor()
     presentViewController(gvc, animated: true, completion: nil)
 
