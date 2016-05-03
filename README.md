@@ -37,3 +37,9 @@ Projects and Playgrounds from class demonstrations.
  
 * 2016-Session5-HeyYou
  - Local, remote and interactive notifications
+ 
+* 2016-Session6-WatchInterFaces
+ - Deonstrates how to pass data bewteen an Apple Watch application and iPhone application using the `Watch Connectivity` framework
+ 
+* 2016-Session6-WatchThis
+ - Demonstrates an Apple Watch app that shows interfaces for interactive notifications, complications and glances.
