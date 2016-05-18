@@ -12,6 +12,8 @@
 		373F0E021CEA278900CC3412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373F0E001CEA278900CC3412 /* Main.storyboard */; };
 		373F0E041CEA278900CC3412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373F0E031CEA278900CC3412 /* Assets.xcassets */; };
 		373F0E071CEA278900CC3412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373F0E051CEA278900CC3412 /* LaunchScreen.storyboard */; };
+		373F0E1F1CEA38AF00CC3412 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 373F0E211CEA38AF00CC3412 /* Localizable.strings */; };
+		373F0E251CEA3D8700CC3412 /* Football.png in Resources */ = {isa = PBXBuildFile; fileRef = 373F0E271CEA3D8700CC3412 /* Football.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,12 @@
 		373F0E031CEA278900CC3412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		373F0E061CEA278900CC3412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		373F0E081CEA278900CC3412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373F0E0F1CEA2C3900CC3412 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		373F0E1C1CEA358F00CC3412 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		373F0E201CEA38AF00CC3412 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		373F0E221CEA38B800CC3412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		373F0E261CEA3D8700CC3412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/Football.png; sourceTree = "<group>"; };
+		373F0E281CEA3D8C00CC3412 /* es */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = es; path = es.lproj/Football.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 				373F0DFE1CEA278900CC3412 /* ViewController.swift */,
 				373F0E001CEA278900CC3412 /* Main.storyboard */,
 				373F0E031CEA278900CC3412 /* Assets.xcassets */,
+				373F0E271CEA3D8700CC3412 /* Football.png */,
+				373F0E211CEA38AF00CC3412 /* Localizable.strings */,
 				373F0E051CEA278900CC3412 /* LaunchScreen.storyboard */,
 				373F0E081CEA278900CC3412 /* Info.plist */,
 			);
@@ -106,6 +116,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 373F0DF01CEA278900CC3412;
 			productRefGroup = 373F0DFA1CEA278900CC3412 /* Products */;
@@ -122,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373F0E251CEA3D8700CC3412 /* Football.png in Resources */,
 				373F0E071CEA278900CC3412 /* LaunchScreen.storyboard in Resources */,
+				373F0E1F1CEA38AF00CC3412 /* Localizable.strings in Resources */,
 				373F0E041CEA278900CC3412 /* Assets.xcassets in Resources */,
 				373F0E021CEA278900CC3412 /* Main.storyboard in Resources */,
 			);
@@ -147,6 +160,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				373F0E011CEA278900CC3412 /* Base */,
+				373F0E1C1CEA358F00CC3412 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,8 +169,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				373F0E061CEA278900CC3412 /* Base */,
+				373F0E0F1CEA2C3900CC3412 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		373F0E211CEA38AF00CC3412 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373F0E201CEA38AF00CC3412 /* es */,
+				373F0E221CEA38B800CC3412 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		373F0E271CEA3D8700CC3412 /* Football.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373F0E261CEA3D8700CC3412 /* Base */,
+				373F0E281CEA3D8C00CC3412 /* es */,
+			);
+			name = Football.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

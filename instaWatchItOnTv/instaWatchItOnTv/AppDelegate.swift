@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import WatchConnectivity
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,6 +28,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       NSForegroundColorAttributeName : UIColor.whiteColor()
       ], forState: .Normal)
     
+    // Set up watch support
+    if WCSession.isSupported() {
+      let session = WCSession.defaultSession()
+      session.delegate = self
+      session.activateSession()
+    }
     
     return true
   }
@@ -55,7 +63,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
 }
 
-
+extension AppDelegate: WCSessionDelegate {
+  
+  /// Handle application context sent from the iOS app
+  func session(session: WCSession, didReceiveApplicationContext applicationContext: [String : AnyObject]) {
+    NSLog("didReceiveApplicationContext: \(applicationContext)")
+  }
+  
+  func session(session: WCSession, didReceiveMessage message: [String : AnyObject]) {
+    NSLog("didReceiveMessage: \(message)")
+  }
+}
 
 extension UIColor {
   public convenience init(rgba: String) {

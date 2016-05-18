@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+    
+       
+        // This is a localization test (it has nothing to do with accessibility)
+        let greeting = NSLocalizedString("GREETING", comment: "This is a greeting.")
+        print("Greeting \(greeting)")
+        
+        let age = String(format: NSLocalizedString("AGE", comment: "Comment doesn't do anything useful"),"5")
+        print("Age \(age)")
+
+    
     return true
   }
 

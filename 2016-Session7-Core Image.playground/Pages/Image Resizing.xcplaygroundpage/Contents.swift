@@ -14,7 +14,7 @@ let filter = CIFilter(name: "CILanczosScaleTransform")!
 
 // Customize effect using key-values
 filter.setValue(mona, forKey: "inputImage")
-filter.setValue(0.5, forKey: "inputScale")
+filter.setValue(0.2, forKey: "inputScale")
 filter.setValue(1.0, forKey: "inputAspectRatio")
 
 // Create the output image
