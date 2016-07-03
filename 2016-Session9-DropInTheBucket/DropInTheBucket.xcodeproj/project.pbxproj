@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371D69A41CF3CEDE0027627C /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 371D69A31CF3CEDE0027627C /* MyParticle.sks */; };
 		37446F811CF35A85008EA341 /* AppearAction.sks in Resources */ = {isa = PBXBuildFile; fileRef = 37446F801CF35A85008EA341 /* AppearAction.sks */; };
 		37446F841CF35FF1008EA341 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 37446F821CF35FF1008EA341 /* SmokeParticle.sks */; };
 		37446F851CF35FF1008EA341 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 37446F831CF35FF1008EA341 /* spark.png */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		371D69A31CF3CEDE0027627C /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 		37446F801CF35A85008EA341 /* AppearAction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AppearAction.sks; sourceTree = "<group>"; };
 		37446F821CF35FF1008EA341 /* SmokeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeParticle.sks; sourceTree = "<group>"; };
 		37446F831CF35FF1008EA341 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				37446F801CF35A85008EA341 /* AppearAction.sks */,
 				37446F821CF35FF1008EA341 /* SmokeParticle.sks */,
+				371D69A31CF3CEDE0027627C /* MyParticle.sks */,
 				37446F831CF35FF1008EA341 /* spark.png */,
 			);
 			name = Resources;
@@ -230,6 +233,7 @@
 				37AB90331AFA91520022C3F4 /* LaunchScreen.xib in Resources */,
 				3794B4C71B029EFE00ADB619 /* Images.xcassets in Resources */,
 				37446F841CF35FF1008EA341 /* SmokeParticle.sks in Resources */,
+				371D69A41CF3CEDE0027627C /* MyParticle.sks in Resources */,
 				37AB90271AFA91520022C3F4 /* GameScene.sks in Resources */,
 				37446F851CF35FF1008EA341 /* spark.png in Resources */,
 				37AB902E1AFA91520022C3F4 /* Main.storyboard in Resources */,

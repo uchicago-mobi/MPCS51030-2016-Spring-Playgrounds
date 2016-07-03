@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomTransitions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KD9-nK-KwS">
+                                <rect key="frame" x="141" y="461" width="93" height="30"/>
+                                <state key="normal" title="Press to View"/>
+                                <connections>
+                                    <segue destination="NzJ-hG-IPo" kind="presentation" id="fCE-Ug-Mgy"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Swift" translatesAutoresizingMaskIntoConstraints="NO" id="pBm-tS-prW">
+                                <rect key="frame" x="67" y="213" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="hDu-9N-Z9w"/>
+                                    <constraint firstAttribute="width" constant="240" id="uEg-ov-4Ae"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KD9-nK-KwS" firstAttribute="top" secondItem="pBm-tS-prW" secondAttribute="bottom" constant="8" id="68R-bl-rge"/>
+                            <constraint firstItem="KD9-nK-KwS" firstAttribute="centerX" secondItem="pBm-tS-prW" secondAttribute="centerX" id="N0v-06-0Kb"/>
+                            <constraint firstItem="pBm-tS-prW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZqF-J6-Z0g"/>
+                            <constraint firstItem="pBm-tS-prW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xEI-XI-HAu"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="swiftImage" destination="pBm-tS-prW" id="vBJ-Ha-0cA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286.5" y="423.5"/>
+        </scene>
+        <!--Pink View Controller-->
+        <scene sceneID="ZIw-dF-vkc">
+            <objects>
+                <viewController id="NzJ-hG-IPo" customClass="PinkViewController" customModule="CustomTransitions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tf3-59-MsW"/>
+                        <viewControllerLayoutGuide type="bottom" id="pgm-bk-Kf6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IMd-5y-RAf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Swift" translatesAutoresizingMaskIntoConstraints="NO" id="dPv-JS-bGU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dPv-JS-bGU" secondAttribute="height" multiplier="1:1" id="GQ5-M6-fof"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Swifty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyT-nC-zQ7">
+                                <rect key="frame" x="27" y="383" width="320" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="ZAu-Q4-dbx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" misplaced="YES" preservesSuperviewLayoutMargins="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7V-PA-NwV">
+                                <rect key="frame" x="28" y="424" width="320" height="197"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="TaT-xF-9PY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BsO-t3-dLb">
+                                <rect key="frame" x="138" y="629" width="99" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SAD-PB-UYt"/>
+                                </constraints>
+                                <state key="normal" title="Press to Close"/>
+                                <connections>
+                                    <action selector="tapClose:" destination="NzJ-hG-IPo" eventType="touchUpInside" id="ziy-gp-PAe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="PyT-nC-zQ7" firstAttribute="centerX" secondItem="dPv-JS-bGU" secondAttribute="centerX" id="0HE-Lf-Ktd"/>
+                            <constraint firstAttribute="trailing" secondItem="dPv-JS-bGU" secondAttribute="trailing" id="7AW-ty-PWY"/>
+                            <constraint firstItem="h7V-PA-NwV" firstAttribute="width" secondItem="IMd-5y-RAf" secondAttribute="width" constant="-24" id="8WQ-P6-jHK"/>
+                            <constraint firstItem="h7V-PA-NwV" firstAttribute="top" secondItem="PyT-nC-zQ7" secondAttribute="bottom" constant="8" id="9Yb-bt-U7j"/>
+                            <constraint firstItem="PyT-nC-zQ7" firstAttribute="top" secondItem="dPv-JS-bGU" secondAttribute="bottom" priority="999" constant="8" id="BDp-JK-VQq"/>
+                            <constraint firstItem="dPv-JS-bGU" firstAttribute="top" secondItem="IMd-5y-RAf" secondAttribute="top" id="L25-fq-LZM"/>
+                            <constraint firstItem="BsO-t3-dLb" firstAttribute="top" secondItem="h7V-PA-NwV" secondAttribute="bottom" constant="8" id="Uk9-1w-wlc"/>
+                            <constraint firstItem="PyT-nC-zQ7" firstAttribute="centerX" secondItem="IMd-5y-RAf" secondAttribute="centerX" id="Uqf-DP-J14"/>
+                            <constraint firstItem="pgm-bk-Kf6" firstAttribute="top" secondItem="BsO-t3-dLb" secondAttribute="bottom" constant="8" id="WxD-ZX-q29"/>
+                            <constraint firstItem="dPv-JS-bGU" firstAttribute="leading" secondItem="IMd-5y-RAf" secondAttribute="leading" id="YNg-ZU-8hF"/>
+                            <constraint firstItem="PyT-nC-zQ7" firstAttribute="leading" secondItem="IMd-5y-RAf" secondAttribute="leadingMargin" id="ZcO-oc-Bik"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h7V-PA-NwV" secondAttribute="trailing" id="dpc-mm-I65"/>
+                            <constraint firstItem="h7V-PA-NwV" firstAttribute="leading" secondItem="IMd-5y-RAf" secondAttribute="leadingMargin" id="fKa-Kh-UeV"/>
+                            <constraint firstItem="PyT-nC-zQ7" firstAttribute="trailing" secondItem="IMd-5y-RAf" secondAttribute="trailingMargin" id="gda-L5-I8G"/>
+                            <constraint firstItem="BsO-t3-dLb" firstAttribute="centerX" secondItem="IMd-5y-RAf" secondAttribute="centerX" id="o8I-XK-xmz"/>
+                            <constraint firstItem="h7V-PA-NwV" firstAttribute="centerX" secondItem="IMd-5y-RAf" secondAttribute="centerX" id="yT2-Jx-l9d"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Uqf-DP-J14"/>
+                                <exclude reference="ZcO-oc-Bik"/>
+                                <exclude reference="gda-L5-I8G"/>
+                                <exclude reference="8WQ-P6-jHK"/>
+                                <exclude reference="dpc-mm-I65"/>
+                                <exclude reference="fKa-Kh-UeV"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Clw-es-yvn" appends="YES" id="yHP-My-2ll"/>
+                        </connections>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjf-XI-lzE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Clw-es-yvn">
+                    <connections>
+                        <action selector="panRecognized:" destination="NzJ-hG-IPo" id="JZe-Lw-mFv"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="895.5" y="428.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Swift" width="2000" height="1800"/>
+    </resources>
+</document>
